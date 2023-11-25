@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('build') {
       steps {
-        sh 'echo "tt"'
+        echo 'bonjour'
       }
     }
 
